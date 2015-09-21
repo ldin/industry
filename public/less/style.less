@@ -1,0 +1,111 @@
+// layout 
+
+header{
+	background: #222;
+	.navbar{
+		border: none;
+		.dropdown-menu>li>a{padding: 10px 20px;}
+
+	}
+	.top-block{height: 50px; }
+}
+
+//main-style for container
+.breadcrumbs{
+	color: #ccc;
+	.page{ 
+		cursor: pointer;
+		&:hover{color: #999}
+	}
+}
+
+body{background: #eee;}
+
+//category
+
+.category-block{
+	.categorys{
+		columns: 3;
+	    -moz-columns: 3;
+	    -webkit-columns: 3;		
+    	list-style: none;
+    	li{
+    		background: #00325D;
+    		margin: 0 5px 15px 5px;
+	    	&>a{
+    			display: inline-block;
+	    		padding: 20px;
+	    		width: 200px;
+	    		color: #ccc; 
+	    		font-size: 16px;
+	    		text-decoration: none;
+	    	}
+	    	&:hover{
+	    		box-shadow: 4px 4px 4px 0 #999;
+	    	}
+	    }	
+	}
+
+	.items{		
+    	list-style: none;
+    	li{  
+    		padding: 0;  		
+    		margin:0 0 15px 0;
+    		.item{
+    			margin: 20px;
+    			height: 280px;
+    			background: #00325D;
+    			transition: 0.5s ease;
+    			&:hover{
+	    			box-shadow: 10px 4px 4px 0 #999;
+	    			transform:scale(1.1)
+	    		}	
+    		}
+    		.title{
+    			display: inline-block;
+    			padding: 20px;
+    			// background: #00325D;
+    		} 
+			&>a{
+	    		height: 40px;
+	    		color: #ccc; 
+	    		text-decoration: none;
+	    	}   		
+    		img{width: 100%; max-width: 200px; max-height: 200px;}
+
+
+	    }	
+	}
+
+}
+
+//items
+.item-list{
+	.box{
+		background: #fff;
+		img{max-width: 100%}
+		.row{
+			margin-bottom: 20px;
+			padding: 20px;
+		}
+		.galery ul{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			li{
+				display: inline-block;
+				width: 30%;
+				img{
+					max-width: 100%;
+				}
+			}
+		}
+	}
+
+	.panel-heading{
+		background: #00325D;
+		width: 100%;
+		padding: 20px;
+		color: #fff;
+	}
+}

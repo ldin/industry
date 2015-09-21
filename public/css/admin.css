@@ -1,0 +1,36 @@
+.implicit{ color: #e4e4e4;}
+.main-page .block{height: 250px;}
+.main-page .block a{color: #000}
+.main-page h1{margin-bottom: 50px;}
+.slide-preview-img img{max-width: 300px;}
+.info-txt{color: #a5a5a5}
+
+
+/* slider */
+.btn-slide{color: #fff; border: 1px solid #fff; padding: 5px 15px; text-decoration: none; text-align: center;}
+.btn-slide:hover{text-decoration: none; background: #fff; color: #000;}
+
+#slider .block {padding: 50px 0 40px;}
+#slider{padding-bottom: 40px; min-height: 300px; background: #517b91 url(/img/Img-bg.png) no-repeat;  background-size: cover; }
+#slider .h1{color: #fff; font-size: 24px;}
+#slider p.title{height: 50px;}
+#slider .block-item{height: 290px; margin-bottom: 25px;}
+#slider .title{  font-size: 25px; font-weight: bold; color: #fff; text-align: center;}
+.carousel-indicators { bottom: -40px;}
+.carousel-control.left, .carousel-control.right{background-image: none;}
+.carousel-control {opacity: 0;}
+#slider .table-price {font-size: 25px;}
+#slider .table>tbody>tr:first-child>td{border-top: none;}
+#slider .carousel-caption {bottom: 0; top:60px;}
+/* slider */
+
+
+.menu{padding:0; margin:0; list-style:none; }
+.menu a{ display:block; padding:8px 14px; margin-bottom:-1px; color:#0088CC; text-decoration:none; border:1px solid #E5E5E5;}
+.menu .active>a{ background: #e7e7e7}
+/*.menu a:hover{background:#f7f7f7;}*/
+.menu ul{list-style: none;}
+.menu ul li a{ background: #F5F5F5; font-size: 12px;}
+.menu ul li a:hover{ background: #e4e4e4;}
+
+#gallery img{max-height: 150px;}
